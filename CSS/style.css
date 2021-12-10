@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 10px; 
     padding: 15px ;
-    border : 2px solid purple ; 
+    /* border : 2px solid purple ;  */
     background-color : lavenderblush ;   
 }
 input[type=button]:hover{
@@ -17,8 +17,8 @@ width: 100%
 }
 form{
     background-color: seagreen;
-    input{width: 30%;}
-
+    /* input{width: 30%;} */
+    width:50%;
 }
 body {
     background: palevioletred;
@@ -26,7 +26,7 @@ body {
     padding: 0;
   }
   li {
-    color: powderblue);
+    color: powderblue;
     display: inline-block;
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -47,23 +47,18 @@ body {
     z-index: 999;
   }
   header{
-      color:rebeccapurple
+      color:rebeccapurple;
       font-size:18px;
-      text-align:
+      text-align: center;
   }
-  <style>
-  img {
-    border-radius: 50%;
+  
+  nav ul{
+      display: none;
   }
-  </style>
-  #grad {
-    background-image: linear-gradient(to right, red , yellow);
-  }
-  <audio><iframe src="https://open.spotify.com/embed/track/0RTGEL3NTwq7Ugs7fv8y42?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></audio>  
+ nav:hover ul{
+     display:block;
+ }
+  
+  /* <audio><iframe src="https://open.spotify.com/embed/track/0RTGEL3NTwq7Ugs7fv8y42?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></audio>   */
 
-  <div>
-        display; flex"
-        width 
-        flex-direction: column
-        justify-content
-  </div>
+ 
