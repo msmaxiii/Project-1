@@ -3,42 +3,61 @@
     margin: 10px; 
     padding: 15px ;
     /* border : 2px solid purple ;  */
-    background-color : lavenderblush ;   
+    background-color : palegoldenrod ;
+    font-family: Arial 'Lucida Sans';
+    font-size: 40px;
 }
 input[type=button]:hover{
     border: solid;
-    background-color: darkgray;
+    background-color: orange;
 }
 input[type=text]:focus {
-background-color:red ;
-color: darksalmon;
+background-color:blue ;
+color: blue;
 width: 100%
-/* transition:2s; */
 }
+
+section {
+    color: black;
+}
+
+
+
+h2{
+    
+    color: blue;
+ 
+}
+
 form{
-    background-color: seagreen;
-    /* input{width: 30%;} */
-    width:50%;
-}
+    background-color: thistle;
+    /*  input{width:120%;} */ 
+    width:44%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+
 body {
-    background: palevioletred;
-    margin: 0;
+     /* background: grey;  */
+    margin 0;
     padding: 0;
   }
   li {
-    color: powderblue;
+    color: red;
     display: inline-block;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-family: Arial,'Lucida Sans';
+    font-size: 40px;
     font-weight: 300;
     letter-spacing: 2px;
     margin: 0;
     padding: 20px 18px 10px 18px;
     text-transform: uppercase;
   }
-  .navigation {
+  * .navigation { 
     box-sizing: border-box;
-    background-color: #3587A4;
+    background-color:green;
     overflow: auto;
     padding: 18px 50px;
     position: relative;
@@ -47,9 +66,12 @@ body {
     z-index: 999;
   }
   header{
-      color:rebeccapurple;
-      font-size:18px;
-      text-align: center;
+      background-image dropdown-content" src="https://picsum.photos/1000/300"/>;
+     height: 50px;
+     background-position:center stretch;
+      color:blue
+      font-size: 40px;
+      text-align:center;
   }
   
   nav ul{
@@ -58,6 +80,9 @@ body {
  nav:hover ul{
      display:block;
  }
+
+ 
+
   
   /* <audio><iframe src="https://open.spotify.com/embed/track/0RTGEL3NTwq7Ugs7fv8y42?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></audio>   */
 
