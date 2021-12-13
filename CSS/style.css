@@ -6,6 +6,7 @@
     background-color : palegoldenrod ;
     font-family: Arial 'Lucida Sans';
     font-size: 40px;
+   
 }
 input[type=button]:hover{
     border: solid;
@@ -81,6 +82,9 @@ body {
      display:block;
  }
 
+ @media(max-width: 600px){
+     
+ }
  
 
   
