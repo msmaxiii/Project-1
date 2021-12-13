@@ -42,7 +42,7 @@ form{
 
 body {
      /* background: grey;  */
-    margin 0;
+    margin: 0;
     padding: 0;
   }
   li {
@@ -66,14 +66,17 @@ body {
     width: 100%;
     z-index: 999;
   }
+
+
   header{
-      background-image dropdown-content" src="https://picsum.photos/1000/300"/>;
-     height: 50px;
-     background-position:center stretch;
-      color:blue
+      background-image: "dropdown-content" src="https://picsum.photos/1000/300";
+      height: 50px;
+      background-position:center, stretch;
+      color: blue;
       font-size: 40px;
-      text-align:center;
-  }
+      text-align: center;
+  }  
+
   
   nav ul{
       display: none;
@@ -82,9 +85,15 @@ body {
      display:block;
  }
 
- @media(max-width: 600px){
-     
- }
+ @media(max-width: 699px)and (min-width: 520px) {
+     nav{
+         padding-left: 30px;
+         background: url(pic.jpg);
+     }
+    }
+  
+  
+ 
  
 
   
