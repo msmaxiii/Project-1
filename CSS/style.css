@@ -85,13 +85,8 @@ body {
      display:block;
  }
 
- @media(max-width: 699px)and (min-width: 520px) {
-     nav{
-         padding-left: 30px;
-         background: url(pic.jpg);
-     }
-    }
-  
+ @media(max-width: 600px){}
+      
   
  
  
