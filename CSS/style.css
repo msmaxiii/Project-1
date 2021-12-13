@@ -70,8 +70,8 @@ body {
 
   header{
       background-image: "dropdown-content" src="https://picsum.photos/1000/300";
-      height: 50px;
-      background-position:center, stretch;
+      /* height: 50px; */
+      /* background-position: top; */
       color: blue;
       font-size: 40px;
       text-align: center;
